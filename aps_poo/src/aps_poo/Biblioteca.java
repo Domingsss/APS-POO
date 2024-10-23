@@ -15,7 +15,7 @@ class Biblioteca {
 		listaMembros.add(membro);
 	}
 	
-	public void EmprestarLivro(Livro livro, Membro membro, String dataEmprestimo) {
+	public void emprestarLivro(Livro livro, Membro membro, String dataEmprestimo) {
 		if (livro.getDisponibilidade()) {
 			EmprestimoAbstrato emprestimo = new Emprestimo(livro, membro, dataEmprestimo);
 			listaEmprestimos.add(emprestimo);
