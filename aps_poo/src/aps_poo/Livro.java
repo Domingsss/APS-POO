@@ -19,6 +19,10 @@ public class Livro {
 		return autor;
 	}
 	
+	public void setDisponibilidade(Boolean bool) {
+		this.disponivel = bool;
+	}
+	
 	public boolean getDisponibilidade() {
 		return disponivel;
 	}
