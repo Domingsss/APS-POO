@@ -1,8 +1,8 @@
 package aps_poo;
 
 public class Emprestimo extends EmprestimoAbstrato{
-	public Emprestimo(Livro livro, Membro membro, String dataEmprestimo) {
-		super(livro, membro, dataEmprestimo);
+	public Emprestimo(Livro livro, String nomeMembro, String dataEmprestimo) {
+		super(livro, nomeMembro, dataEmprestimo);
 		livro.Emprestar();
 	}
 	
